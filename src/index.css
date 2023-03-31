@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: var(--font-500);
 }
 
@@ -277,6 +277,10 @@ button,
 
 /* ****************************Application Section Container********************************************* */
 
+
+/* applications-section-title-container */
+
+
 .applications-section-title-container {
   display: flex;
   justify-content: space-between;
@@ -289,6 +293,9 @@ button,
   font-size: var(--font-big);
 }
 
+
+/* Filters Container */
+
 .filters-title {
   font-size: 24px;
   line-height: 20px;
@@ -296,12 +303,15 @@ button,
   letter-spacing: 0.2px;
   color: #000000;
   margin: 3rem 0 3rem 0;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .filter-options-container {
   padding-left: 4rem;
 }
+
+
+/* Toggler Implementation */
 
 .toggler {
   display: flex;
@@ -391,16 +401,28 @@ div.on .toggler--slider {
   line-height: 2.5;
 }
 
-.jobs-division ul li{
+.jobs-division ul li {
   font-size: 14px;
 }
+
+
+/* Application List Container */
 
 .top-container {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.shown-data {
+  color: #c8c7c7;
+  margin-bottom: 1.2rem;
+}
+
+.shown-data span {
+  color: #656565;
 }
 
 .deselect-container {
@@ -445,20 +467,11 @@ div.on .toggler--slider {
   padding: 0 2rem;
 }
 
-.shown-data{
-  color: #c8c7c7;
-  margin-bottom: 1.2rem;
-}
-
-.shown-data span{
-  color: #656565;
-}
-
 .applicants-card {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   padding: 1.2rem 0;
 }
 
@@ -519,11 +532,11 @@ div.on .toggler--slider {
   border: 1px solid black;
 }
 
-.options-container{
+.options-container {
   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .options {

@@ -3,9 +3,14 @@ import user1 from "../../images/pp1.svg";
 import bookmark from "../../images/bookmark.svg";
 
 export default function ApplicantsCard(props) {
-
-  const {userImage, userName, position, date, interviewStage, selectionChance} = props;
-
+  const {
+    userImage,
+    userName,
+    position,
+    date,
+    interviewStage,
+    selectionChance,
+  } = props;
 
   return (
     <>
@@ -13,7 +18,11 @@ export default function ApplicantsCard(props) {
         <div className="select-applicant"></div>
         <div className="applicants-detail-card">
           <div className="applied-job-details">
-            <img className="user--img" src={`../../images/` + userImage} alt="" />
+            <img
+              className="user--img"
+              src={`../../images/` + userImage}
+              alt=""
+            />
             <div className="bookmark-icon">
               <img src={bookmark} alt="" />
             </div>
@@ -35,7 +44,7 @@ export default function ApplicantsCard(props) {
                 <div className="dot"></div>
               </div>
             </div>
-            
+
             <div className="options-container">
               <div>
                 <p className="emoji">🙂</p>

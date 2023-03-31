@@ -3,7 +3,6 @@ import Header from "./Header";
 import Applications from "./Applications";
 
 const Main = () => {
-  
   return (
     <section className="main-section">
       <Header></Header>

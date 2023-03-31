@@ -16,9 +16,9 @@ export default function Applications() {
             <FiltersContainer />
           </div>
           <div className="right">
-          <p className="shown-data">
-            Showing <span>45</span> from <span>180</span> total
-          </p>
+            <p className="shown-data">
+              Showing <span>45</span> from <span>180</span> total
+            </p>
             <Applicants />
           </div>
         </div>
