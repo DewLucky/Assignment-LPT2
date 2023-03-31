@@ -1,15 +1,8 @@
 import React from "react";
-import info from "../../images/info-button.png";
-import play from "../../images/play-logo.png";
-import question from "../../images/question-logo.png";
-import email from "../../images/email.png";
-import rocket from "../../images/rocket.png";
-import account from "../../images/account.png";
-import brand from '../../images/brand-logo.webp'
-import searchIcon from '../../images/search-icon.svg'
-import bellIcon from '../../images/bell-icon.svg'
-import userImg from '../../images/user-image.jpg'
-import logout from '../../images/logout.svg'
+import searchIcon from "../../images/search-icon.svg";
+import bellIcon from "../../images/bell-icon.svg";
+import userImg from "../../images/user-image.jpg";
+import logout from "../../images/logout.svg";
 
 const Header = () => {
   return (
@@ -20,9 +13,9 @@ const Header = () => {
             <div className="search-bar">
               <img src={searchIcon} alt="" />
               <input
-              className="input-field"
+                className="input-field"
                 type="text"
-                placeholder='Search Jobs and Applications...'
+                placeholder="Search Jobs and Applications..."
               />
             </div>
           </div>
@@ -36,7 +29,9 @@ const Header = () => {
               </div>
             </div>
             <div className="jobsite-container">
-              <a href="#"><img src={logout} alt="" /></a>
+              <a href="#">
+                <img src={logout} alt="" />
+              </a>
               <p className="jobsite-title">Jobsite</p>
             </div>
           </div>
