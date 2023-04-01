@@ -1,11 +1,11 @@
 import React from "react";
-import dashboard from "../../images/dashboard.svg";
-import myjobsIcon from "../../images/jobs-icon.svg";
-import user from "../../images/user.svg";
-import stats from "../../images/stats-icon.svg";
-import brush from "../../images/brush.svg";
-import settings from "../../images/settings.svg";
-import jobTooli from "../../images/job-tooli.svg";
+import dashboard from "/images/dashboard.svg";
+import myjobsIcon from "/images/jobs-icon.svg";
+import user from "/images/user.svg";
+import stats from "/images/stats-icon.svg";
+import brush from "/images/brush.svg";
+import settings from "/images/settings.svg";
+import jobTooli from "/images/job-tooli.svg";
 
 function Leftsidebar() {
   return (

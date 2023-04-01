@@ -1,6 +1,6 @@
 import React from "react";
-import deselect from "../../images/deselect.svg";
-import download from "../../images/download.svg";
+import deselect from "/images/deselect.svg";
+import download from "/images/download.svg";
 
 export default function TopContainer() {
   return (

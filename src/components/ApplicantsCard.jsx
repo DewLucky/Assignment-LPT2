@@ -1,6 +1,6 @@
 import React from "react";
-import user1 from "../../images/pp1.svg";
-import bookmark from "../../images/bookmark.svg";
+import user1 from "/images/pp1.svg";
+import bookmark from "/images/bookmark.svg";
 
 export default function ApplicantsCard(props) {
   const {
@@ -20,17 +20,16 @@ export default function ApplicantsCard(props) {
           <div className="applied-job-details">
             <img
               className="user--img"
-              src={`../../images/` + userImage}
+              src={`/images/` + userImage}
               alt=""
             />
             <div className="bookmark-icon">
               <img src={bookmark} alt="" />
             </div>
             <div className="applicants-details">
-              <p className="applicants-name">{userName}</p>
+              <p className="applicants-name">{userName} <span className="applied-date">{date}</span></p>
               <p className="position">{position}</p>
             </div>
-            <div className="applied-date">{date}</div>
           </div>
           <div className="application-stage">
             <div>

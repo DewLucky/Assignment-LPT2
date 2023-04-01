@@ -1,5 +1,5 @@
 import React from "react";
-import addUser from "../../images/add-user.svg";
+import addUser from "/images/add-user.svg";
 import FiltersContainer from "./FiltersContainer";
 import Applicants from "./ApplicantsContainer";
 export default function Applications() {

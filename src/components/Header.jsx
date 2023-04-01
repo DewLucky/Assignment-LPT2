@@ -1,8 +1,8 @@
 import React from "react";
-import searchIcon from "../../images/search-icon.svg";
-import bellIcon from "../../images/bell-icon.svg";
-import userImg from "../../images/user-image.jpg";
-import logout from "../../images/logout.svg";
+import searchIcon from "/images/search-icon.svg";
+import bellIcon from "/images/bell-icon.svg";
+import userImg from "/images/user-image.jpg";
+import logout from "/images/logout.svg";
 
 const Header = () => {
   return (

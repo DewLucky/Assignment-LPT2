@@ -277,9 +277,7 @@ button,
 
 /* ****************************Application Section Container********************************************* */
 
-
 /* applications-section-title-container */
-
 
 .applications-section-title-container {
   display: flex;
@@ -292,7 +290,6 @@ button,
 .applications-section-title-container h2 {
   font-size: var(--font-big);
 }
-
 
 /* Filters Container */
 
@@ -309,7 +306,6 @@ button,
 .filter-options-container {
   padding-left: 4rem;
 }
-
 
 /* Toggler Implementation */
 
@@ -405,7 +401,6 @@ div.on .toggler--slider {
   font-size: 14px;
 }
 
-
 /* Application List Container */
 
 .top-container {
@@ -482,6 +477,10 @@ div.on .toggler--slider {
   width: 95%;
 }
 
+.applicants-details{
+  position: relative;
+}
+
 .applied-job-details {
   display: flex;
   flex: 2;
@@ -508,10 +507,8 @@ div.on .toggler--slider {
 }
 
 .applied-date {
-  position: relative;
-  top: 0;
-  right: 5rem;
   font-size: 11px;
+  margin-left: 2px;
   color: #c4c4c4;
 }
 
